@@ -1,0 +1,28 @@
+<style>
+    .box {
+        width: 100px;
+        height: 100px;
+        border: 1px solid #000000;
+    }
+
+    .blue {
+        background: blue;
+    }
+
+    .red {
+        background: red;
+    }
+</style>
+
+<template id="template">
+    <section id="section1">
+        <div>
+            <p>blue box</p>
+        </div>
+    </section>
+    <section id="section2">
+        <div>
+            <p>red box</p>
+        </div>
+    </section>
+</template>
