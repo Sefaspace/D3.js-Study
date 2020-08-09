@@ -1,0 +1,49 @@
+.h-bar {
+  margin-top: 5px;
+  padding: 2px 5px;
+  border: 1px solid #2c3e50;
+  background: lightgray;
+  color: green;
+  text-align: right;
+
+  &.selected {
+    background: #2c3e50;
+    color: #42b983;
+  }
+}
+
+.control-group {
+  margin-top: 10px;
+
+  & button {
+    margin-right: 5px;
+    padding: 5px 10px;
+
+    &:hover {
+      cursor: pointer;
+      background: #2c3e50;
+      border: 2px solid #42b983;
+      color: #42b983;
+    }
+  }
+}
+
+div.cell {
+  //width: 24px;
+  padding: 5px 10px;
+  margin-right: 2px;
+  margin-top: 5px;
+  border: 1px solid #000000;
+  border-radius: 2px;
+  text-align: center;
+}
+
+div.fixed-cell {
+  display: inline-block;
+  width: 40px;
+  padding: 5px 10px;
+  margin-right: 2px;
+  border: 1px solid #000000;
+  border-radius: 2px;
+  text-align: center;
+}
